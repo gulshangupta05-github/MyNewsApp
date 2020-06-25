@@ -1,0 +1,54 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_title"
+        android:hint="Title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_description"
+        android:layout_below="@+id/et_title"
+        android:hint="description"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:id="@+id/et_location"-->
+<!--        android:layout_below="@+id/et_description"-->
+<!--        android:hint="location"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/et_latlong"-->
+<!--        android:layout_below="@+id/et_location"-->
+<!--        android:hint="latlong"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/et_currenttime"-->
+<!--        android:layout_below="@+id/et_latlong"-->
+<!--        android:hint="current time"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/et_postalcode"-->
+<!--        android:layout_below="@+id/et_currenttime"-->
+<!--        android:hint="postalcode"/>-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/savedata"
+        android:text="savedata"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"/>
+
+
+
+
+
+
+</RelativeLayout>
